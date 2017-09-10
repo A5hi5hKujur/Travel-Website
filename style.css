@@ -1,8 +1,22 @@
+/*------------------------------------------------------------------------------
+Website Design by : Ashish Kujur
+Dated: 28/07/2017
+
+
+Contents:
+1. Homepage
+2. About page
+3. Packages page
+4. Blog
+-------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+                            1. Homepage
+------------------------------------------------------------------------------*/
 html,body
 {
   margin: 0px;
   padding: 0px;
-
   font-family: calibri;
 }
 header
@@ -279,4 +293,61 @@ footer
 .social-5
 {
   background-image: url(images/social-media/youtube.png);
+}
+
+/*------------------------------------------------------------------------------
+                              2. About Page
+------------------------------------------------------------------------------*/
+.about-body
+{
+  width: 100%;
+  height: 760px;
+  display: flex;
+  background: pink;
+}
+.about-title-box
+{
+  width: 30%;
+  height: 660px;
+}
+.about-content
+{
+  width: 70%;
+  background: green;
+  height:660px;
+}
+.inner-content-box
+{
+  display: flex;
+  width: 100%;
+}
+.about-image-box
+{
+  width: 50%;
+  height: 660px;
+  background: black;
+}
+.about-content-box
+{
+  width: 50%;
+  height: 660px;
+  background: gray;
+}
+.about-nav
+{
+  width: 100%;
+  height: 100px;
+  background: yellow;
+}
+.about-content-box-1
+{
+  width: 100%;
+  height: 50%;
+  background: #333;
+}
+.about-content-box-2
+{
+  width: 100%;
+  height: 50%;
+  background: white;
 }
