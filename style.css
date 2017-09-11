@@ -36,6 +36,20 @@ nav
   display: flex;
   justify-content: space-between;
 }
+li
+{
+  list-style: none;
+}
+ul
+{
+  padding: 0px;
+  margin: 0px;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
 .logo-container
 {
   width: 200px;
@@ -298,6 +312,7 @@ footer
 /*------------------------------------------------------------------------------
                               2. About Page
 ------------------------------------------------------------------------------*/
+
 .about-body
 {
   width: 100%;
@@ -414,4 +429,22 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
   width: 100%;
   height: 40%;
   background: #edf0f6;
+}
+.about-contact-container
+{
+  display: flex;
+  justify-content: space-between;
+}
+.about-contact-container>ul>p
+{
+  color: #999;
+  font-weight: 600;
+}
+.about-content-box-header.no-flex
+{
+  display: block;
+}
+.contact-address
+{
+  width: 40%;
 }
