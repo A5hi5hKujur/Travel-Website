@@ -20,11 +20,6 @@ html,body
   font-family: calibri;
   position: relative;
 }
-.body
-{
-
-}
-
 header
 {
   width: 100%;
@@ -34,7 +29,6 @@ header
   background-repeat: no-repeat;
   background-size: cover;
   transition: all ease-in .3s;
-
 }
 nav
 {
@@ -48,13 +42,7 @@ footer
 {
   width: 100%;
   min-height: 200px;
-
-
-  position: relative;
-    z-index: -2;
-
-    background: none repeat scroll 0% 0% #31353A;
-
+  background: #3e4247;
 }
 
 li
@@ -70,6 +58,11 @@ a
 {
   text-decoration: none;
   color: black;
+}
+a:hover
+{
+  text-decoration: none;
+  color: #333;
 }
 .scroll-nav
 {
@@ -319,21 +312,14 @@ padding-bottom: 50px;
   padding-top:100px;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
-  position: relative;
-
 }
 .social-icon
 {
   height: 40px;
   width: 40px;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 2;
-  cursor: pointer;
-
 }
 .social-1
 {
