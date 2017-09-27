@@ -368,20 +368,22 @@ padding-bottom: 50px;
 
 .about-body
 {
-  width: 100%;
+  width: 125%;
   height: 760px;
   display: flex;
-  .background: pink;
+  transition: all ease-in .3s;
 }
 .about-title-box
 {
   position: relative;
   width: 25%;
-  height: 700px;
+  height: 760px;
   padding: 30px 40px;
+  transform: translateX(-100%);
   -webkit-box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
 -moz-box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
 box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
+transition: all ease-in .3s;
 }
 .about-logo
 {
@@ -398,11 +400,11 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
   font-size: 50px;
   letter-spacing: 3px;
   font-weight: 300;
+  opacity: 0;
 }
 .about-content
 {
   width: 75%;
-  background: green;
   height:660px;
 }
 .about-content h3
@@ -421,14 +423,15 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
   height: 660px;
   background-image: url(images/About/About-Cover.jpg);
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 200% 200%;
   background-repeat: no-repeat;
+  transition: all ease-in .5s;
 }
 .about-content-box
 {
   width: 50%;
   height: 660px;
-  background: gray;
+
 }
 .about-nav
 {
@@ -441,6 +444,7 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
 }
 .about-nav>li
 {
+  opacity: 0;
   list-style: none;
   margin: 35px 30px;
   font-size: 20px;
@@ -449,9 +453,10 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
 {
   color: white;
   width: 100%;
-  height: 60%;
+  height: 100%;
   background: #3e4247;
   position: relative;
+  transition: all ease-in .3s;
 }
 .about-content-box-header
 {
@@ -480,7 +485,7 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
 .about-content-box-2
 {
   width: 100%;
-  height: 40%;
+  height: 0%;
   background: #edf0f6;
 }
 .about-contact-container
@@ -495,7 +500,9 @@ box-shadow: 4px 0px 11px -4px rgba(0,0,0,0.11);
 }
 .about-content-box-header.no-flex
 {
+  opacity: 0;
   display: block;
+  transition: all ease-in .3s;
 }
 .contact-address
 {
