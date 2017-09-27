@@ -24,7 +24,7 @@ header
 {
   width: 100%;
   min-height: 780px;
-  background-image: url(images/header/1.jpg);
+  background-image: url(images/header/banner.jpg);
   .background-position: 50% 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -508,3 +508,7 @@ transition: all ease-in .3s;
 {
   width: 40%;
 }
+
+/*------------------------------------------------------------------------------
+                              3. Packages
+------------------------------------------------------------------------------*/
