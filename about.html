@@ -8,50 +8,15 @@
     <script src="js/bootstrap.js"></script> <!-- UI -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>
+    <script src="js/about-load-animation.js"></script>
     <link href="css/bootstrap.css" rel="Stylesheet"/>
     <link href="css/animate.css" rel="Stylesheet"/>
-    <link href="style.css" rel="Stylesheet"/>
-    <script>
-      function aboutAnimation()    // executes when page is loaded
-      {
-        $('.about-body').css({ 'width' : '100%' });
-
-        setTimeout(function()
-        {
-          $('.about-title-box').css({ 'transform' : 'translateX(0%)' });
-        },500);
-
-
-        setTimeout(function()
-        {
-          $('.about-content-box-2').css({ 'height' : '40%' });
-          $('.about-content-box-1').css({ 'height' : '60%' });
-        },700);
-
-
-        setTimeout(function()
-        {
-          $('.about-content-box-header.no-flex').css({ 'opacity' : '1' });
-        },1200);
-
-
-        $('.about-image-box').css({ 'background-size' : '100% 100%' });
-
-        setTimeout(function()
-        {
-          $('.about-title').addClass('animated fadeInUp');
-        },800);
-        setTimeout(function()
-        {
-          $('.about-nav > li').addClass('animated fadeInUp');
-        },1200);
-      }
-    </script>
+    <link href="style.css" rel="Stylesheet"/>  
   </head>
   <body onload="aboutAnimation()">
     <div class="about-body"> <!-- flex -->
       <div class="about-title-box">
-        <a href=""><div class="about-logo"></div></a>  <!-- logo -->
+        <a href="index.html"><div class="about-logo"></div></a>  <!-- logo -->
         <div class="about-title">ABOUT<br>FREEDOM</div> <!-- Title -->
       </div>
       <div class="about-content">
@@ -61,7 +26,7 @@
             <div class="about-content-box-1">
               <div class="about-content-box-header">
                 <h3>Why Us</h3>
-                <div class="about-gohome-icon"></div>
+                <a href="index.html"><div class="about-gohome-icon"></div></a>
               </div>
               <p>
                 of Letraset sheets containing Lorem Ipsum passages, and more
