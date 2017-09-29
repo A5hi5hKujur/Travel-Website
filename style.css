@@ -414,6 +414,45 @@ padding-bottom: 50px;
   {
     width: 90%;
   }
+  .about-section>p
+  {
+    padding: 50px 30px;
+  }
+  .steps-container
+  {
+    margin: 0px 30px;
+    display: block;
+  }
+  .steps-unit
+  {
+    display: flex;
+    width: 100%;
+  }
+  .featured-destination-container
+  {
+    margin: 0px 30px;
+  }.featured-destination-unit
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .social-container
+  {
+    width: 90%;
+
+    padding-top:80px;
+
+  }
+  .social-icon
+  {
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .6;
+    background-size: cover;
+    transition: all ease-in .1s;
+  }
 }
 /*------------------------------------------------------------------------------
                               2. About Page
