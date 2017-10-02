@@ -673,14 +673,36 @@ transition: all ease-in .3s;
 .package-navbar-section
 {
   width: 20%;
-  background: pink;
+  background: white;
   position: fixed;
   height: 100%;
+  padding: 20px;
+  -webkit-box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
+box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
+}
+.package-page-logo
+{
+  height: 100px;
+  width: 250px;
+  background-image: url(images/logo/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.package-navbar-list
+{
+  margin: 70% 50px;
+}
+.package-navbar-list>li
+{
+  margin: 50px;
+  font-size: 25px;
 }
 .package-listing-section
 {
   width: 45%;
-  background: yellow;
+  background: #f7f7f7;
   padding:50px;
 }
 .package-listing-container
@@ -691,9 +713,7 @@ transition: all ease-in .3s;
   justify-content: space-around;
   padding:0px 30px;
   width: 100%;
-
-  background: grey;
-  overflow: hidden;
+  .overflow: hidden;
 }
 .package-item
 {
@@ -701,9 +721,15 @@ transition: all ease-in .3s;
   width: 250px;
   margin-top: 10px;
   background: white;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
 }
 .package-detail-section
 {
   width:35%;
-  background: #8FBC8F;
+  background: white;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
 }
