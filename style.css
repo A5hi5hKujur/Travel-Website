@@ -416,7 +416,8 @@ padding-bottom: 50px;
   }
   .about-section>p
   {
-    padding: 50px 30px;
+    padding: 40px 30px;
+    font-size: 23px;
   }
   .steps-container
   {
@@ -431,7 +432,13 @@ padding-bottom: 50px;
   .featured-destination-container
   {
     margin: 0px 30px;
-  }.featured-destination-unit
+  }
+  .featured-destination-section>p
+  {
+    padding: 40px 30px;
+    font-size: 23px;
+  }
+  .featured-destination-unit
   {
     width: 100%;
     margin: 10px 0px;
@@ -531,6 +538,7 @@ transition: all ease-in .3s;
   width: 100%;
   height: 100px;
   display: flex;
+  background: white;
   justify-content: space-between;
 }
 .about-nav>li
@@ -622,7 +630,11 @@ transition: all ease-in .3s;
   .about-content-box
   {
     width: 100%;
+<<<<<<< HEAD
     height: 60%;
+=======
+    height: auto;
+>>>>>>> refs/remotes/origin/gh-pages
   }
   .about-gohome-icon
   {
@@ -637,6 +649,13 @@ transition: all ease-in .3s;
     margin-top: 50px;
     width: 100%;
   }
+<<<<<<< HEAD
+=======
+  .about-title
+  {
+    display: none;
+  }
+>>>>>>> refs/remotes/origin/gh-pages
 }
 /*------------------------------------------------------------------------------
                               3. Packages
