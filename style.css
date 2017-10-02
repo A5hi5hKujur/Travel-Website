@@ -625,7 +625,7 @@ transition: all ease-in .3s;
   }
   .about-title-box
   {
-    height: auto;
+    height: 168%;
   }
   .inner-content-box
   {
@@ -645,12 +645,14 @@ transition: all ease-in .3s;
   {
     display: block;
   }
-  .contact-address
+  .contact-address,.contact-info
   {
     margin-top: 50px;
     width: 100%;
   }
-  
+  .about-content-box-header {
+     padding: 20px 40px 40px 40px;
+ }
 }
 /*------------------------------------------------------------------------------
                               3. Packages
