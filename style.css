@@ -729,7 +729,7 @@ transition: all ease-in .3s;
 }
 .package-item:hover
 {
-  
+
 }
 .package-detail-section
 {
@@ -744,6 +744,43 @@ box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
   position: fixed;
   height: 100%;
   width: 100%;
-
-  background: grey;
+}
+.package-detail-content
+{
+  padding:50px;
+}
+.package-detail-content>h3
+{
+  margin-bottom: 40px;
+}
+.package-detail-content>p
+{
+  max-width: 440px;
+}
+.package-detail-content>button
+{
+  width: 440px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  background: none;
+  border: 1px solid black;
+  transition: all ease-in .3s;
+}
+.package-detail-content>button:hover
+{
+  background: black;
+  color: white;
+}
+.package-detail-hero-image
+{
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.package-detail-hero-image1
+{
+  background: url(images/packages/package-details/paris.jpg)
 }
