@@ -657,3 +657,53 @@ transition: all ease-in .3s;
 /*------------------------------------------------------------------------------
                               3. Packages
 ------------------------------------------------------------------------------*/
+.package-body
+{
+  position: relative;
+  width:100%;
+  overflow-x: hidden;
+}
+.package-wrapper
+{
+  display: flex;
+  width: 100%;
+  height: 200%;
+  margin-left: 20%;
+}
+.package-navbar-section
+{
+  width: 20%;
+  background: pink;
+  position: fixed;
+  height: 100%;
+}
+.package-listing-section
+{
+  width: 45%;
+  background: yellow;
+  padding:50px;
+}
+.package-listing-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding:0px 30px;
+  width: 100%;
+
+  background: grey;
+  overflow: hidden;
+}
+.package-item
+{
+  height: 300px;
+  width: 250px;
+  margin-top: 10px;
+  background: white;
+}
+.package-detail-section
+{
+  width:35%;
+  background: #8FBC8F;
+}
