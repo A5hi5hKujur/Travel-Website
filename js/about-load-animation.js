@@ -5,7 +5,14 @@ function aboutAnimation()    // executes when page is loaded
   setTimeout(function()
   {
     $('.about-title-box').css({ 'transform' : 'translateX(0%)' });
-    $('.about-content-box-2').css({ 'height' : '40%' });
+    if($(window ).width() > 360)
+    {
+      $('.about-content-box-2').css({ 'height' : '40%' });
+    }
+    else
+      {
+        $('.about-content-box-2').css({ 'height' : 'auto' });
+      }
     $('.about-content-box-1').css({ 'height' : '60%' });
   },500);
 
