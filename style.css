@@ -715,22 +715,21 @@ box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
   width: 100%;
   .overflow: hidden;
 }
-.package-item
+.package-listing-container>.package-item
 {
   height: 300px;
   width: 250px;
   margin-top: 10px;
-  background: white;
   cursor: pointer;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
 -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
 box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
 transition: all ease-in .3s;
 }
-.package-item:hover
-{
 
-}
 .package-detail-section
 {
   width:35%;
@@ -779,6 +778,38 @@ box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.package-item1
+{
+  background: url(images/packages/package-units/paris.jpg)
+}
+.package-item2
+{
+  background: url(images/packages/package-units/india.jpg)
+}
+.package-item3
+{
+  background: url(images/packages/package-units/ny.jpg)
+}
+.package-item4
+{
+  background: url(images/packages/package-units/sf.jpg)
+}
+.package-item5
+{
+  background: url(images/packages/package-units/rome.jpg)
+}
+.package-item6
+{
+  background: url(images/packages/package-units/tokyo.gif)
+}
+.package-item7
+{
+  background: url(images/packages/package-units/amsterdam.jpg)
+}
+.package-item8
+{
+  background: url(images/packages/package-units/sydney.jpg)
 }
 .package-detail-hero-image1
 {
