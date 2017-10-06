@@ -766,14 +766,21 @@ transition: all ease-in .3s;
   right:20px;
   top:10px;
   cursor: pointer;
+  opacity: .3;
 }
 .package-detail-content
 {
   padding:50px;
 }
-.package-detail-content>h3
+.package-detail-heading
 {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 40px;
+}
+.package-detail-heading>h2
+{
+  line-height: 12px;
 }
 .package-detail-content>p
 {
