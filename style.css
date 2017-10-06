@@ -271,8 +271,9 @@ padding-bottom: 50px;
   cursor: pointer;
   opacity: 0;
   transition: all ease-in .2s;
+  position: relative;
 }
-.featured-destination-unit:hover
+.featured-destination-unit:hover,.package-listing-container>.package-item:hover
 {
   background-size: 120% 120%;
 }
@@ -297,9 +298,10 @@ padding-bottom: 50px;
 }
 .destination-name
 {
+  position: absolute;
   transform: translateY(20px);
   opacity: 0;
-  margin-top: 220px;
+  bottom: 0px;
   width: 100%;
   height: 50px;
   padding-top: 10px;
@@ -313,9 +315,9 @@ padding-bottom: 50px;
 {
   margin-left: 20px;
 }
-.featured-destination-unit:hover .destination-name
+.featured-destination-unit:hover .destination-name,.package-item:hover .destination-name
 {
-  transform: translateY(10px);
+  transform: translateY(0px);
   opacity: .9;
 }
 
@@ -717,6 +719,7 @@ box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
 }
 .package-listing-container>.package-item
 {
+  position: relative;
   height: 300px;
   width: 250px;
   margin-top: 10px;
