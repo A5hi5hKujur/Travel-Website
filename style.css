@@ -721,6 +721,7 @@ box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
 .package-listing-container>.package-item
 {
   position: relative;
+  opacity: 0;
   height: 300px;
   width: 250px;
   margin-top: 10px;
@@ -752,6 +753,19 @@ transition: all ease-in .3s;
 .package-detail
 {
     display: none;
+}
+.close-package-detail
+{
+  height: 30px;
+  width: 30px;
+  background: url(images/logo/close.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right:20px;
+  top:10px;
+  cursor: pointer;
 }
 .package-detail-content
 {
