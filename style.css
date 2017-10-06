@@ -703,9 +703,10 @@ box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.14);
 }
 .package-listing-section
 {
-  width: 45%;
+  width: 80%;
   background: #f7f7f7;
   padding:50px;
+  transition: all ease-in .3s;
 }
 .package-listing-container
 {
@@ -735,17 +736,22 @@ transition: all ease-in .3s;
 
 .package-detail-section
 {
-  width:35%;
+  width:0%;
   background: white;
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
 -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
 box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+transition: all ease-in .3s;
 }
 .package-detail-container
 {
   position: fixed;
   height: 100%;
   width: 100%;
+}
+.package-detail
+{
+    display: none;
 }
 .package-detail-content
 {
@@ -818,9 +824,9 @@ box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
 {
   background: url(images/packages/package-units/sydney.jpg)
 }
-.package-detail1,.package-detail2,.package-detail3,.package-detail4,.package-detail5,.package-detail6,.package-detail7
+.active-package-detail
 {
-  display: none;
+  display: block;
 }
 
 .package-detail-hero-image1
