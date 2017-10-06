@@ -12,25 +12,9 @@
     <link href="css/bootstrap.css" rel="Stylesheet"/>
     <link href="css/animate.css" rel="Stylesheet"/>
     <link href="style.css" rel="Stylesheet"/>
-    <script>
-    $(function()
-    {
-      packageAnimation();
-    });
-    function packageAnimation()
-    {
-    $('.package-item').click(function(){
-      $('.package-listing-section').css({ 'width' : '45%' });
-      $('.package-detail-section').css({ 'width' : '35%' });
-      var $this = $(this),
-          $siblings = $this.parent().children(),
-          position = $siblings.index($this);
-          $('.package-detail').removeClass('active-package-detail').eq(position).addClass('active-package-detail');
-    });
-  }
-    </script>
+    <script src="js/package-animations.js"></script>
   </head>
-  <body class="package-body">
+  <body class="package-body" onload="packageLoadAnimation()">
     <div class="package-navbar-section">
       <div class="package-page-logo"></div>
       <ul class="package-navbar-list">
