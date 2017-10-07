@@ -3,10 +3,37 @@ $(function()
   stickyHeader();   // Sticky navigation bar in Homepage
   parallexHeader(); // Parallex header effect in Homepage
   destinationAnimation(); // Featured Destination animation in Homepage
-  packageLoadAnimation(); // Packages load animation in Package page
+  destinationRedirectFunction();  // Featured Destination rediection script in Homepage
   packageAnimation(); // Package detail mechanism in Package page
 });
 
+function destinationRedirectFunction()
+{
+  $( ".featured-destination-unit" ).click(function() {
+    var $this = $(this);
+    var $siblings = $this.parent().children();
+    var position = $siblings.index($this);
+    if(position == 0)
+    {
+      window.location.href = "package.html?0";
+    }
+    else if(position == 1)
+    {
+      window.location.href = "package.html?1";
+    }
+    else if(position == 2)
+    {
+      window.location.href = "package.html?2";
+    }
+    else if(position == 3)
+    {
+      window.location.href = "package.html?3";
+    }
+    else {
+      alert(bot);
+    }
+  });
+}
 function stickyHeader()
 {
   $(window).scroll(function() {
@@ -69,6 +96,25 @@ function packageLoadAnimation()
       $('.package-listing-container > div').eq(i).addClass('animated fadeInUp');
     },120*(i+1));
   });
+
+  var pageUrl = window.location.href;
+  var lastChar = pageUrl[pageUrl.length - 1];
+  if(lastChar == '0')
+  {
+    $( ".package-item3" ).trigger( "click" );
+  }
+  if(lastChar == '1')
+  {
+    $( ".package-item2" ).trigger( "click" );
+  }
+  if(lastChar == '2')
+  {
+    $( ".package-item4" ).trigger( "click" );
+  }
+  if(lastChar == '3')
+  {
+    $( ".package-item1" ).trigger( "click" );
+  }
 }
 
 function packageAnimation()
