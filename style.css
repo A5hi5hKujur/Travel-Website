@@ -675,6 +675,7 @@ transition: all ease-in .3s;
 {
   width: 20%;
   background: white;
+  overflow: hidden;
   position: fixed;
   height: 100%;
   padding: 20px;
@@ -883,4 +884,33 @@ transition: all ease-in .3s;
 .package-detail-hero-image8
 {
   background: url(images/packages/package-details/sydney.jpg)
+}
+#package-page-mobile-nav
+{
+  display: none;
+}
+@media screen and (max-width: 360px)
+{
+  .package-navbar-section
+  {
+    width: 0%;
+    padding: 0px;
+  }
+  #package-page-mobile-nav
+  {
+    display: block;
+  }
+  .package-wrapper
+  {
+    margin-left: 0%;
+  }
+  .package-listing-section
+  {
+    width: 100%;
+    padding:0px;
+  }
+  .package-detail-container
+  {
+    position: relative;
+  }
 }
