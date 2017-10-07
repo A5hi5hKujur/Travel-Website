@@ -225,6 +225,17 @@
             <button class="book-package">Book</button>
           </div>
         </div>
+        <!-- Booking Script -->
+        <script>
+        $( ".book-package" ).click(function() {
+          var $this = $(this);
+          var $siblings = $this.parent().children();
+          var title = $siblings.children("h3").text();
+          var amount = $siblings.children("h2").text();
+          alert("You booked a trip to "+title+" costing "+amount);
+        });
+
+        </script>
       </div>
     </div>
   </div>
