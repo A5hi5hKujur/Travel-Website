@@ -119,8 +119,9 @@ function packageLoadAnimation()
 
 function packageAnimation()
 {
+  var winWidth = $( window ).width();
 $('.package-item').click(function(){
-  if($( window ).width()>360)
+  if(winWidth>360)
   {
     $('.package-listing-section').css({ 'width' : '45%' });
     $('.package-detail-section').css({ 'width' : '35%' });
