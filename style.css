@@ -915,7 +915,7 @@ transition: all ease-in .3s;
   }
   .package-detail>.package-detail-hero-image
   {
-    min-width: 320px;
+    width: 360px;
   }
   .package-detail-content
   {
@@ -923,7 +923,7 @@ transition: all ease-in .3s;
   }
   .package-detail-content>p
   {
-    max-width: 280px;
+    max-width: 310px;
     font-size: 16px;
     text-align: center;
   }
@@ -934,7 +934,7 @@ transition: all ease-in .3s;
   }
   .package-detail-content>button
   {
-    width: 280px;
+    width: 310px;
 
   }
 }
