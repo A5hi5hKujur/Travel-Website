@@ -913,4 +913,28 @@ transition: all ease-in .3s;
   {
     position: relative;
   }
+  .package-detail>.package-detail-hero-image
+  {
+    min-width: 320px;
+  }
+  .package-detail-content
+  {
+    padding:20px;
+  }
+  .package-detail-content>p
+  {
+    max-width: 280px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .package-detail-heading>h2
+  {
+    font-size: 20px;
+    margin-top: 27px;
+  }
+  .package-detail-content>button
+  {
+    width: 280px;
+
+  }
 }
