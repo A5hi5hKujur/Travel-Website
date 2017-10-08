@@ -94,7 +94,7 @@ function packageLoadAnimation()
     {
       //$('.row div').eq(i).removeClass('about-section-hidden');
       $('.package-listing-container > div').eq(i).addClass('animated fadeInUp');
-    },120*(i+1));
+    },30*(i+1));
   });
 
   var pageUrl = window.location.href;
